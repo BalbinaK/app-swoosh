@@ -160,7 +160,7 @@
                                     <constraint firstAttribute="height" constant="50" id="nfy-q4-BIg"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="20"/>
-                                <state key="normal" title="Next">
+                                <state key="normal" title="NEXT">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                             </button>
@@ -244,13 +244,27 @@
                                     </button>
                                 </subviews>
                             </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oNP-kK-yz9" customClass="BorderButton" customModule="app_swoosh" customModuleProvider="target">
+                                <rect key="frame" x="16" y="597" width="343" height="50"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.4338345462" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="ZzW-Xg-jiv"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="20"/>
+                                <state key="normal" title="NEXT">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="JSW-Gi-WrX" firstAttribute="top" secondItem="iYI-AO-ATW" secondAttribute="bottom" constant="50" id="1jl-wV-P3d"/>
                             <constraint firstItem="TQf-rW-Hjm" firstAttribute="top" secondItem="avH-bA-hyO" secondAttribute="top" id="DF9-uG-yA7"/>
                             <constraint firstItem="iYI-AO-ATW" firstAttribute="top" secondItem="3rp-vh-y9F" secondAttribute="top" constant="40" id="Hbb-A4-hCb"/>
+                            <constraint firstItem="oNP-kK-yz9" firstAttribute="leading" secondItem="3rp-vh-y9F" secondAttribute="leading" constant="16" id="Pwm-gE-3dQ"/>
                             <constraint firstItem="3rp-vh-y9F" firstAttribute="trailing" secondItem="iYI-AO-ATW" secondAttribute="trailing" id="S7Y-9W-AOI"/>
+                            <constraint firstItem="3rp-vh-y9F" firstAttribute="bottom" secondItem="oNP-kK-yz9" secondAttribute="bottom" constant="20" id="SmA-Dg-h08"/>
+                            <constraint firstItem="3rp-vh-y9F" firstAttribute="trailing" secondItem="oNP-kK-yz9" secondAttribute="trailing" constant="16" id="UyO-Qc-LhJ"/>
                             <constraint firstItem="JSW-Gi-WrX" firstAttribute="leading" secondItem="3rp-vh-y9F" secondAttribute="leading" constant="16" id="Wie-Fx-Lab"/>
                             <constraint firstItem="iYI-AO-ATW" firstAttribute="leading" secondItem="3rp-vh-y9F" secondAttribute="leading" id="gYy-Ub-8hf"/>
                             <constraint firstItem="TQf-rW-Hjm" firstAttribute="trailing" secondItem="3rp-vh-y9F" secondAttribute="trailing" id="l4T-pc-UMg"/>
